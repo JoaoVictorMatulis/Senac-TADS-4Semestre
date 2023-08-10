@@ -1,0 +1,16 @@
+.linguagens{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    align-items: flex-start;
+    justify-content: space-around;
+
+    background-color: blueviolet;
+    height: 400px;
+}
+
+.linguagens div{
+    background-color: cornflowerblue;
+    padding: 15px;
+}
