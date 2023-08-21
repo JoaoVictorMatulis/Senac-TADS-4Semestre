@@ -1,0 +1,4 @@
+Baixar fontes do Google: https://fonts.google.com/
+Baixar icones: https://fontawesome.com/search?o=r&m=free&s=solid&f=classic%2Csharp
+import para usar os icones: https://cdnjs.com/libraries/font-awesome
+Baixar o normalize.css: https://necolas.github.io/normalize.css/
