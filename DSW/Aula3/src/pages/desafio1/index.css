@@ -1,0 +1,47 @@
+*{
+    z-index: 0;
+}
+
+.div-form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 400px;
+}
+
+.div-form > form{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ftexto{
+    position: absolute;
+    padding: 20px 0px 0px 10px;
+    border: 2px solid #c7c400;
+    height: 50px;
+}
+
+.ftexto:active{
+    border: 2px solid #c7c400;
+}
+
+.flabel{
+    position: absolute;
+    z-index: 2;
+    left: -131px;
+    top: -13px;
+    color: #c7c400;
+    font-size: 12px;
+}
+
+.fa-solid{
+    position: absolute;
+    color: #c7c400;  
+    left: 115px;
+    z-index: 2;
+}
