@@ -1,4 +1,4 @@
-import {diaSemanaF, meses} from './funcoes.js'
+import {msgEnvio} from './funcoes.js'
 import prompt from 'prompt-sync'
 let ler = prompt()
 
@@ -13,3 +13,5 @@ let mes = Number(ler())
 
 console.log("\nDigite o ano (em numero): ")
 let ano = Number(ler())
+
+console.log(msgEnvio(dia, diaSemana, mes, ano))

@@ -1,72 +1,57 @@
-export function diaSemanaF(dia){
+function diaSemanaF(dia){
     switch(dia){
         case(0):
-            console.log('Domingo')
-            break;
+            return 'Domingo'
         case(1):
-            console.log('Segunda')
-            break;
+            return 'Segunda'
         case(2):
-        console.log('Terça')
-            break;
+            return 'Terça'
         case(3):
-        console.log('Quarta')
-            break;
+            return 'Quarta'
         case(4):
-        console.log('Quinta')
-            break;
+            return 'Quinta'
         case(5):
-        console.log('Sexta')
-            break;
+            return 'Sexta'
         case(6):
-        console.log('Sábado')
-            break;
+            return 'Sábado'
         default:
-            console.log('Dia da semana inválido')
-            break;
+            return 'Dia da semana inválido'
     }
 }
 
-export function meses(mes){
+function meses(mes){
     switch(mes){
         case(1):
-            console.log('Janeiro')
-            break;
+            return 'Janeiro'
         case(2):
-            console.log('Fevereiro')
-            break;
+            return 'Fevereiro'
         case(3):
-            console.log('Março')
-            break;
+            return 'Março'
         case(4):
-            console.log('Abril')
-            break;
+            return 'Abril'
         case(5):
-            console.log('Maio')
-            break;
+            return 'Maio'
         case(6):
-            console.log('Junho')
-            break;
+            return 'Junho'
         case(7):
-            console.log('Julho')
-            break;
+            return 'Julho'
         case(8):
-            console.log('Agosto')
-            break;
+            return 'Agosto'
         case(9):
-            console.log('Setembro')
-            break;
+            return 'Setembro'
         case(10):
-            console.log('Outubro')
-            break;
+            return 'Outubro'
         case(11):
-            console.log('Novembro')
-            break;
+            return 'Novembro'
         case(12):
-            console.log('Dezembro')
-            break;
+            return 'Dezembro'
         default:
-            console.log('Mês inválido')
-            break;
+            return 'Mês inválido'
     }
+}
+//Enviado Domingo, 22 de Outubro de 1989
+export function msgEnvio(dia, diaSemana, mes, ano){
+    diaSemana = diaSemanaF(diaSemana)
+    mes = meses(mes)
+    return `Enviado ${diaSemana}, ${dia} de ${mes} de ${ano}`
 }
