@@ -1,0 +1,1254 @@
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    width: 100%;
+    font-family: Arial;
+    font-weight: 400;
+    background: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a :hover {
+    text-decoration: underline;
+}
+
+main {
+    overflow: hidden;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    display: block;
+    word-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+button {
+    font-family: "iFoodRCTitulos", Lato, Helvetica, Arial, sans-serif;
+}
+
+body,
+p,
+button,
+input,
+a,
+h4,
+h5,
+h6 {
+    font-family: "iFoodRCTexto", Lato, Helvetica, Arial, sans-serif;
+}
+
+.relativo {
+    position: relative;
+    margin: 0 auto;
+}
+
+.absoluto {
+    position: absolute;
+}
+
+.larguraPadrao {
+    max-width: 400px;
+}
+
+.itemBloco {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.forma {
+    height: inherit;
+}
+
+.btn {
+    cursor: pointer;
+    text-align: center;
+    transition: border .5s;
+    width: 100%;
+    border: 0;
+    white-space: normal;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0;
+    line-height: 120%;
+}
+
+#cabecalho {
+    height: 5.875rem;
+    max-width: 100%;
+}
+
+#elemento1 {
+    top: 2rem;
+    left: 1.1875rem;
+    height: 2.4659rem;
+    width: 7.875rem;
+    z-index: 105;
+}
+
+#elemento2 {
+    top: 3.6875rem;
+    left: 15.3125rem;
+    height: 1.625rem;
+    width: 9.6875rem;
+    z-index: 52;
+
+    font-size: 0.9907rem;
+    line-height: 1.6rem;
+    text-align: right;
+    font-weight: 400;
+}
+
+#faixa1 .setorBloco {
+    background: url(/public/assets/images/BackGroundImage1Mobile.svg) no-repeat rgb(255, 255, 255) 50% 50% / auto;
+    height: 71.375rem;
+    width: 100%;
+}
+
+#faixa1-elemento1 {
+    top: 25.1875rem;
+    left: 0;
+    height: 16.5211rem;
+    width: 24.9375rem;
+    z-index: 13;
+
+}
+
+#faixa1-elemento2 {
+    top: 1.8125rem;
+    left: 19.8125rem;
+    height: 0.625rem;
+    width: 0.625rem;
+    z-index: 100;
+}
+
+#faixa1-elemento3 {
+    top: 3.375rem;
+    left: 4.5625rem;
+    height: 3.75rem;
+    width: 18.375rem;
+    z-index: 94;
+    color: #ffffff;
+    font-size: 3.1447rem;
+    line-height: 3.809rem;
+    text-align: left;
+    font-weight: 700;
+}
+
+#faixa1-elemento4 {
+    top: 3.375rem;
+    left: 20.75rem;
+    height: 0.6445rem;
+    width: 0.6667rem;
+    z-index: 99;
+}
+
+#faixa1-elemento5 {
+    top: 6.3125rem;
+    left: 7.3125rem;
+    height: 3.75rem;
+    width: 11.75rem;
+    z-index: 95;
+    font-size: 3.1447rem;
+    line-height: 3.809rem;
+    text-align: left;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#faixa1-elemento5 .x_d5c83a7f {
+    text-align: left;
+    line-height: 3.75rem;
+    font-size: 3.1447rem;
+    color: #ffffff;
+}
+
+#faixa1-elemento6 {
+    top: 7.25rem;
+    left: 4rem;
+    height: 1.8125rem;
+    width: 11.5625rem;
+    z-index: 96;
+    font-size: 1.4861rem;
+    line-height: 1.8rem;
+    text-align: left;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#faixa1-elemento7 {
+    top: 10.25rem;
+    left: 4.625rem;
+    height: 1.0625rem;
+    width: 1.0625rem;
+    z-index: 101;
+}
+
+#faixa1-elemento8 {
+    top: 10.25rem;
+    left: 7.1875rem;
+    height: 1.75rem;
+    width: 9.75rem;
+    z-index: 98;
+    font-size: 1.4633rem;
+    line-height: 1.7724rem;
+    text-align: left;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#faixa1-elemento9 {
+    top: 10.25rem;
+    left: 10.3125rem;
+    height: 1.75rem;
+    width: 9.75rem;
+    z-index: 97;
+
+    font-size: 1.4633rem;
+    line-height: 1.7724rem;
+    text-align: left;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#faixa1-elemento10 {
+    top: 15rem;
+    left: 2.0625rem;
+    height: 2.75rem;
+    width: 20.0625rem;
+    z-index: 69;
+    font-size: 0.9907rem;
+    line-height: 1.4rem;
+    text-align: left;
+    color: #ffffff;
+}
+
+#faixa1-elemento11 {
+    top: 18.5625rem;
+    left: 2rem;
+    height: 4.875rem;
+    width: 20.9375rem;
+    z-index: 72;
+
+    font-size: 0.9907rem;
+    line-height: 1.6rem;
+    text-align: left;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#faixa1-elemento12 {
+    top: 43.5625rem;
+    left: 3.375rem;
+    height: 4rem;
+    width: 18.25rem;
+    z-index: 108;
+
+    font-size: 1.2384rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #000000;
+}
+
+#faixa1-elemento13 {
+    top: 57.0625rem;
+    left: 4rem;
+    height: 5.25rem;
+    width: 17rem;
+    z-index: 103;
+
+    font-size: 1.2384rem;
+    line-height: 1.75rem;
+    text-align: center;
+    color: #000000;
+}
+
+#faixa2 {
+    height: 52.125rem;
+    max-width: 100%;
+}
+
+#faixa2 .setorBloco {
+    background: rgb(255, 255, 255);
+    height: 52.125rem;
+}
+
+#faixa2-elemento1 {
+    top: -29.6875rem;
+    left: 1.25rem;
+    height: 12.5rem;
+    width: 22.5rem;
+    z-index: 107;
+}
+
+#faixa2-elemento1 .forma {
+    border: 0;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(93, 93, 93, 0.15) 4px 0 24px 0;
+}
+
+#faixa2-elemento2 {
+    top: -15.8125rem;
+    left: 1.25rem;
+    height: 12.5rem;
+    width: 22.5rem;
+    z-index: 102;
+}
+
+#faixa2-elemento2 .forma {
+    border: 0;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(93, 93, 93, 0.15) 4px 0 24px 0;
+}
+
+#faixa2-elemento3 {
+    top: -22.25rem;
+    left: 2.625rem;
+    height: 3rem;
+    width: 19.5rem;
+    z-index: 109;
+}
+
+#faixa2-elemento3 .btn {
+    background: #141414;
+    color: #FFFFFF;
+    font-size: 0.8669rem;
+    font-family: Arial;
+    font-weight: 700;
+    font-style: normal;
+    height: 3rem;
+    width: 19.5rem;
+    border-radius: 0;
+}
+
+#faixa2-elemento4 {
+    top: -8.125rem;
+    left: 2.625rem;
+    height: 2.8125rem;
+    width: 19.5rem;
+    z-index: 104;
+}
+
+#faixa2-elemento4 .btn {
+    background: #141414;
+    color: #FFFFFF;
+    font-size: 0.8669rem;
+    font-family: Arial;
+    font-weight: 700;
+    font-style: normal;
+    height: 2.8125rem;
+    width: 19.5rem;
+    border-radius: 0;
+}
+
+#faixa2-elemento5 {
+    top: 2.8125rem;
+    left: 3.125rem;
+    height: 5.75rem;
+    width: 18.75rem;
+    z-index: 71;
+
+    font-size: 2.0433rem;
+    line-height: 2.8875rem;
+    text-align: center;
+}
+
+#faixa2-elemento6 {
+    top: 22.625rem;
+    left: 0.125rem;
+    height: 8.5172rem;
+    width: 8.5625rem;
+    z-index: 79;
+}
+
+#faixa2-elemento7 {
+    top: 11.125rem;
+    left: 0;
+    height: 7.8508rem;
+    width: 7.8366rem;
+    z-index: 78;
+}
+
+#faixa2-elemento8 {
+    top: 34.0625rem;
+    left: 0.3125rem;
+    height: 7.5426rem;
+    width: 7.5198rem;
+    z-index: 88;
+}
+
+#faixa2-elemento9 {
+    top: 22.625rem;
+    left: 8.625rem;
+    height: 1.375rem;
+    width: 14.0625rem;
+    z-index: 5;
+    color: #1a1a1a;
+    font-size: 1.1146rem;
+    line-height: 1.35rem;
+    text-align: left;
+}
+
+#faixa2-elemento10 {
+    top: 34.875rem;
+    left: 8.5625rem;
+    height: 1.375rem;
+    width: 14.125rem;
+    z-index: 17;
+    color: #1a1a1a;
+    font-size: 1.1146rem;
+    line-height: 1.35rem;
+    text-align: left;
+}
+
+#faixa2-elemento11 {
+    top: 11rem;
+    left: 8.625rem;
+    height: 1.375rem;
+    width: 15.4375rem;
+    z-index: 67;
+    color: #1a1a1a;
+    font-size: 1.1146rem;
+    line-height: 1.35rem;
+    text-align: left;
+}
+
+#faixa2-elemento12 {
+    top: 24.75rem;
+    left: 8.625rem;
+    height: 6.875rem;
+    width: 15.125rem;
+    z-index: 12;
+
+    font-size: 0.8669rem;
+    line-height: 1.4rem;
+    text-align: left;
+    font-weight: 400;
+}
+
+#faixa2-elemento13 {
+    top: 37rem;
+    left: 8.5625rem;
+    height: 5.5rem;
+    width: 16.375rem;
+    z-index: 18;
+
+    font-size: 0.8669rem;
+    line-height: 1.4rem;
+    text-align: left;
+    font-weight: 400;
+}
+
+#faixa2-elemento14 {
+    top: 13.125rem;
+    left: 8.5625rem;
+    height: 6.875rem;
+    width: 16.5rem;
+    z-index: 68;
+
+    font-size: 0.8669rem;
+    line-height: 1.4rem;
+    text-align: left;
+    font-weight: 400;
+}
+
+#faixa2-elemento15 {
+    top: 45.625rem;
+    left: 4.8125rem;
+    height: 3rem;
+    width: 15.3125rem;
+    z-index: 89;
+}
+
+#faixa2-elemento15 .btn:hover {
+    background: #E0E0E0;
+    color: #141414;
+}
+
+#faixa2-elemento15 .btn {
+    background: #F5F5F5;
+    color: #141414;
+    font-size: 0.8669rem;
+    font-family: Arial;
+    font-weight: 700;
+    font-style: normal;
+    height: 3rem;
+    width: 15.3125rem;
+    border-radius: 25px;
+}
+
+#faixa3{
+    height: 43.3125rem;
+    max-width: 100%;
+}
+
+#faixa3 .setorBloco{
+    background: url(/public/assets/images/BackGroundImage2Mobile.svg) no-repeat 47% 13% / auto;
+    height: 43.3125rem;
+}
+
+#faixa3-elemento1 {
+    top: 2.625rem;
+    left: 2.9375rem;
+    height: 4rem;
+    width: 19.0625rem;
+    z-index: 70;
+    font-size: 1.4241rem;
+    line-height: 2.0125rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+#faixa3-elemento2 {
+    top: 9rem;
+    left: 3.375rem;
+    height: 1.625rem;
+    width: 20.4375rem;
+    z-index: 74;
+    font-size: 0.9907rem;
+    line-height: 1.6rem;
+    text-align: left;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#faixa3-elemento3 {
+    top: 9.125rem;
+    left: 1.125rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    z-index: 75;
+}
+
+#faixa3-elemento4 {
+    top: 11.5625rem;
+    left: 3.375rem;
+    height: 2.75rem;
+    width: 20.4375rem;
+    z-index: 73;
+
+    font-size: 0.8669rem;
+    line-height: 1.4rem;
+    text-align: left;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#faixa3-elemento5 {
+    top: 25.625rem;
+    left: 3.3125rem;
+    height: 1.625rem;
+    width: 18.125rem;
+    z-index: 81;
+
+    font-size: 0.9907rem;
+    line-height: 1.6rem;
+    text-align: left;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#faixa3-elemento6 {
+    top: 25.75rem;
+    left: 1.1875rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    z-index: 82;
+}
+
+#faixa3-elemento7 {
+    top: 28.1875rem;
+    left: 3.375rem;
+    height: 4.125rem;
+    width: 20.4375rem;
+    z-index: 80;
+
+    font-size: 0.8669rem;
+    line-height: 1.4rem;
+    text-align: left;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#faixa3-elemento8 {
+    top: 16.6875rem;
+    left: 3.375rem;
+    height: 1.625rem;
+    width: 20.4375rem;
+    z-index: 86;
+
+    font-size: 0.9907rem;
+    line-height: 1.6rem;
+    text-align: left;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#faixa3-elemento9 {
+    top: 16.6875rem;
+    left: 1.125rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    z-index: 87;
+}
+
+#faixa3-elemento10 {
+    top: 19.25rem;
+    left: 3.375rem;
+    height: 4.125rem;
+    width: 20.4375rem;
+    z-index: 85;
+
+    font-size: 0.8669rem;
+    line-height: 1.4rem;
+    text-align: left;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#faixa3-elemento11 {
+    top: 34.8125rem;
+    left: 3.5rem;
+    height: 1.625rem;
+    width: 20.4375rem;
+    z-index: 92;
+
+    font-size: 0.9907rem;
+    line-height: 1.6rem;
+    text-align: left;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#faixa3-elemento12 {
+    top: 34.8125rem;
+    left: 1.1875rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    z-index: 93;
+}
+
+#faixa3-elemento13 {
+    top: 37.3125rem;
+    left: 3.5rem;
+    height: 2.75rem;
+    width: 20.4375rem;
+    z-index: 91;
+
+    font-size: 0.8669rem;
+    line-height: 1.4rem;
+    text-align: left;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+@media screen and (min-width:768px) {
+    .larguraPadrao {
+        max-width: 60rem;
+    }
+
+    #cabecalho {
+        height: 4.875rem;
+        max-width: 100%;
+    }
+
+    #elemento1 {
+        top: 1.4375rem;
+        left: -8.3125rem;
+        height: 1.9375rem;
+        width: 6.1875rem;
+        z-index: 105;
+    }
+
+    #elemento2 {
+        top: 1.9375rem;
+        left: 54.9375rem;
+        height: 1.375rem;
+        width: 10.4375rem;
+        z-index: 52;
+
+        font-size: 0.8669rem;
+        line-height: 1.4rem;
+        text-align: right;
+        font-weight: 400;
+    }
+
+    #faixa1 .setorBloco {
+        background: url(/public/assets/images/BackGroundImage1.svg) repeat rgb(255, 255, 255) 28% 50% / cover;
+        height: 39.375rem;
+        width: 100%;
+    }
+
+    #faixa1-elemento1 {
+        top: -0.4375rem;
+        left: 30.0625rem;
+        height: 39.75rem;
+        width: 60rem;
+        z-index: 13;
+    }
+
+    #faixa1-elemento2 {
+        top: 12.1875rem;
+        left: 10.125rem;
+        height: 0.875rem;
+        width: 0.875rem;
+        z-index: 100;
+    }
+
+    #faixa1-elemento3 {
+        top: 160px;
+        left: -12.8125rem;
+        height: 5.5rem;
+        width: 28.75rem;
+        z-index: 94;
+        font-size: 40px;
+        line-height: 5.5212rem;
+        text-align: left;
+        font-weight: 700;
+        color: #FFFFFF;
+    }
+
+    #faixa1-elemento4 {
+        top: 14.8125rem;
+        left: 12.0625rem;
+        height: 2.0625rem;
+        width: 2rem;
+        z-index: 99;
+    }
+
+    #faixa1-elemento5 {
+        top: 14.4375rem;
+        left: -8.3125rem;
+        height: 5.5rem;
+        width: 13.3125rem;
+        z-index: 95;
+        font-size: 45px;
+        line-height: 5.5212rem;
+        text-align: left;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+    #faixa1-elemento6 {
+        top: 17.4375rem;
+        left: -12.6875rem;
+        height: 2.0625rem;
+        width: 13.3125rem;
+        z-index: 96;
+        font-size: 13px;
+        line-height: 2.0705rem;
+        text-align: left;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+    #faixa1-elemento7 {
+        top: 23.5625rem;
+        left: -9.875rem;
+        height: 1.5625rem;
+        width: 1.5625rem;
+        z-index: 101;
+    }
+
+    #faixa1-elemento8 {
+        top: 22.5625rem;
+        left: -5.6875rem;
+        height: 2.4375rem;
+        width: 13.3125rem;
+        z-index: 98;
+        font-size: 13px;
+        line-height: 2.4155rem;
+        text-align: left;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+    #faixa1-elemento9 {
+        top: 353px;
+        left: -0.375rem;
+        height: 2.4375rem;
+        width: 13.3125rem;
+        z-index: 97;
+        font-size: 18px;
+        line-height: 2.4155rem;
+        text-align: left;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+    #faixa1-elemento10 {
+        top: 16.0625rem;
+        left: 17.6875rem;
+        height: 4rem;
+        width: 19.8125rem;
+        z-index: 69;
+        font-size: 1.2384rem;
+        line-height: 2rem;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    #faixa1-elemento11 {
+        top: 21.1875rem;
+        left: 17.6875rem;
+        height: 4.875rem;
+        width: 20.9375rem;
+        z-index: 72;
+        font-size: 0.9907rem;
+        line-height: 1.6rem;
+        text-align: left;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+    #faixa1-elemento12 {
+        top: 35.75rem;
+        left: 7.625rem;
+        height: 4rem;
+        width: 18.25rem;
+        z-index: 108;
+        font-size: 1.2384rem;
+        line-height: 2rem;
+        text-align: center;
+        color: #000000;
+    }
+
+    #faixa1-elemento13 {
+        top: 35.75rem;
+        left: 31.4375rem;
+        height: 4rem;
+        width: 23.4375rem;
+        z-index: 103;
+        font-size: 1.2384rem;
+        line-height: 2rem;
+        text-align: center;
+        color: #000000;
+    }
+
+    #faixa2 {
+        height: 40.5625rem;
+        max-width: 100%;
+    }
+
+    #faixa2 .setorBloco {
+        background: rgb(255, 255, 255);
+        height: 40.5625rem;
+    }
+
+    #faixa2-elemento1 {
+        top: -5.6875rem;
+        left: 4rem;
+        height: 13.0625rem;
+        width: 25.5rem;
+        z-index: 107;
+    }
+
+    #faixa2-elemento1 .forma {
+        border: 0;
+        border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+        background: rgb(255, 255, 255);
+        box-shadow: rgba(93, 93, 93, 0.15) 4px 0 24px 0;
+    }
+
+    #faixa2-elemento2 {
+        top: -5.6875rem;
+        left: 30.4375rem;
+        height: 13.0625rem;
+        width: 25.5rem;
+        z-index: 102;
+    }
+
+    #faixa2-elemento2 .forma {
+        border: 0;
+        border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+        background: rgb(255, 255, 255);
+        box-shadow: rgba(93, 93, 93, 0.15) 4px 0 24px 0;
+    }
+
+    #faixa2-elemento3 {
+        top: 1.9375rem;
+        left: 7.625rem;
+        height: 3rem;
+        width: 18.0625rem;
+        z-index: 109;
+    }
+
+    #faixa2-elemento3 .btn {
+        background: #141414;
+        color: #FFFFFF;
+        font-size: 0.8669rem;
+        font-family: Arial;
+        font-weight: 700;
+        font-style: normal;
+        height: 3rem;
+        width: 18.0625rem;
+        border-radius: 0;
+    }
+
+    #faixa2-elemento4 {
+        top: 1.9375rem;
+        left: 33.75rem;
+        height: 3rem;
+        width: 18.0625rem;
+        z-index: 104;
+    }
+
+    #faixa2-elemento4 .btn {
+        background: #141414;
+        color: #FFFFFF;
+        font-size: 0.8669rem;
+        font-family: Arial;
+        font-weight: 700;
+        font-style: normal;
+        height: 3rem;
+        width: 18.0625rem;
+        border-radius: 0;
+    }
+
+    #faixa2-elemento5 {
+        top: 11.375rem;
+        left: 4.8125rem;
+        height: 5.3125rem;
+        width: 50.375rem;
+        z-index: 71;
+
+        font-size: 3.2817rem;
+        line-height: 5.3rem;
+        text-align: center;
+    }
+
+    #faixa2-elemento6 {
+        top: 18rem;
+        left: 15.8125rem;
+        height: 11.75rem;
+        width: 11.8125rem;
+        z-index: 79;
+    }
+
+    #faixa2-elemento7 {
+        top: 18.6875rem;
+        left: -14.4375rem;
+        height: 12.8125rem;
+        width: 12.75rem;
+        z-index: 78;
+    }
+
+    #faixa2-elemento8 {
+        top: 18.6875rem;
+        left: 45.3125rem;
+        height: 11.0625rem;
+        width: 11rem;
+        z-index: 88;
+    }
+
+    #faixa2-elemento9 {
+        top: 20.625rem;
+        left: 25.0625rem;
+        height: 1.375rem;
+        width: 20.3125rem;
+        z-index: 5;
+        color: #525252;
+        font-size: 1.1146rem;
+        line-height: 1.35rem;
+        text-align: left;
+    }
+
+    #faixa2-elemento10 {
+        top: 20.75rem;
+        left: 55.1875rem;
+        height: 1.375rem;
+        width: 19.4375rem;
+        z-index: 17;
+        color: #525252;
+        font-size: 1.1146rem;
+        line-height: 1.35rem;
+        text-align: left;
+    }
+
+    #faixa2-elemento11 {
+        top: 20.875rem;
+        left: -3.5625rem;
+        height: 1.375rem;
+        width: 19.9375rem;
+        z-index: 67;
+        color: #525252;
+        font-size: 1.1146rem;
+        line-height: 1.35rem;
+        text-align: left;
+    }
+
+    #faixa2-elemento12 {
+        top: 22.875rem;
+        left: 25.0625rem;
+        height: 5.5rem;
+        width: 20.3125rem;
+        z-index: 12;
+
+        font-size: 0.8669rem;
+        line-height: 1.4rem;
+        text-align: left;
+        font-weight: 400;
+    }
+
+    #faixa2-elemento13 {
+        top: 23rem;
+        left: 55.1875rem;
+        height: 5.5rem;
+        width: 17.375rem;
+        z-index: 18;
+
+        font-size: 0.8669rem;
+        line-height: 1.4rem;
+        text-align: left;
+        font-weight: 400;
+    }
+
+    #faixa2-elemento14 {
+        top: 23.1875rem;
+        left: -3.625rem;
+        height: 5.5rem;
+        width: 19.1875rem;
+        z-index: 68;
+
+        font-size: 0.8669rem;
+        line-height: 1.4rem;
+        text-align: left;
+        font-weight: 400;
+    }
+
+    #faixa2-elemento15 {
+        top: 32.0625rem;
+        left: 22.3125rem;
+        height: 3rem;
+        width: 17.375rem;
+        z-index: 89;
+    }
+
+    #faixa2-elemento15 .btn {
+        background: #F5F5F5;
+        color: #141414;
+        font-size: 0.9907rem;
+        font-family: Arial;
+        font-weight: 700;
+        font-style: normal;
+        height: 3rem;
+        width: 17.375rem;
+        border-radius: 25px;
+    }
+
+    #faixa3{
+        height: 30.0625rem;
+        max-width: 100%;
+    }
+
+    #faixa3 .setorBloco{
+        background: url(/public/assets/images/BackGroundImage2.png) repeat 42% 46% / cover;
+        height: 30.0625rem;
+    }
+
+    #faixa3-elemento1 {
+        top: 4.75rem;
+        left: -11.125rem;
+        height: 3.5rem;
+        width: 50.375rem;
+        z-index: 70;
+
+        font-size: 2.1672rem;
+        line-height: 3.5rem;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    #faixa3-elemento2 {
+        top: 12.0625rem;
+        left: -8.875rem;
+        height: 1.625rem;
+        width: 20.4375rem;
+        z-index: 74;
+
+        font-size: 0.9907rem;
+        line-height: 1.6rem;
+        text-align: left;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+    #faixa3-elemento3 {
+        top: 12.125rem;
+        left: -11.125rem;
+        height: 1.5rem;
+        width: 1.5rem;
+        z-index: 75;
+    }
+
+    #faixa3-elemento4 {
+        top: 13.875rem;
+        left: -8.875rem;
+        height: 2.75rem;
+        width: 20.4375rem;
+        z-index: 73;
+
+        font-size: 0.8669rem;
+        line-height: 1.4rem;
+        text-align: left;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+    #faixa3-elemento5 {
+        top: 12.0625rem;
+        left: 18.75rem;
+        height: 1.625rem;
+        width: 20.4375rem;
+        z-index: 81;
+
+        font-size: 0.9907rem;
+        line-height: 1.6rem;
+        text-align: left;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+    #faixa3-elemento6 {
+        top: 12.125rem;
+        left: 16.5rem;
+        height: 1.5rem;
+        width: 1.5rem;
+        z-index: 82;
+    }
+
+    #faixa3-elemento7 {
+        top: 13.875rem;
+        left: 18.75rem;
+        height: 4.125rem;
+        width: 20.4375rem;
+        z-index: 80;
+
+        font-size: 0.8669rem;
+        line-height: 1.4rem;
+        text-align: left;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+    #faixa3-elemento8 {
+        top: 18.5625rem;
+        left: -8.875rem;
+        height: 1.625rem;
+        width: 20.4375rem;
+        z-index: 86;
+
+        font-size: 0.9907rem;
+        line-height: 1.6rem;
+        text-align: left;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+    #faixa3-elemento9 {
+        top: 18.625rem;
+        left: -11.125rem;
+        height: 1.5rem;
+        width: 1.5rem;
+        z-index: 87;
+    }
+
+    #faixa3-elemento10 {
+        top: 20.375rem;
+        left: -8.875rem;
+        height: 4.125rem;
+        width: 20.4375rem;
+        z-index: 85;
+
+        font-size: 0.8669rem;
+        line-height: 1.4rem;
+        text-align: left;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+    #faixa3-elemento11 {
+        top: 19.8125rem;
+        left: 18.75rem;
+        height: 1.625rem;
+        width: 20.4375rem;
+        z-index: 92;
+
+        font-size: 0.9907rem;
+        line-height: 1.6rem;
+        text-align: left;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+    #faixa3-elemento12 {
+        top: 19.875rem;
+        left: 16.5rem;
+        height: 1.5rem;
+        width: 1.5rem;
+        z-index: 93;
+    }
+
+    #faixa3-elemento13 {
+        top: 21.625rem;
+        left: 18.75rem;
+        height: 2.75rem;
+        width: 20.4375rem;
+        z-index: 91;
+
+        font-size: 0.8669rem;
+        line-height: 1.4rem;
+        text-align: left;
+        font-weight: 400;
+        color: #ffffff;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .escondeMobile {
+        display: none;
+    }
+}

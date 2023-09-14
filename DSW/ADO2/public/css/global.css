@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'iFoodRCTexto';
+    src: url('/public/assets/fonts/iFoodRCTextos-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'iFoodRCTitulos';
+    src: url('/public/assets/fonts/iFoodRCTitulos-Bold.woff2');
+}
+
+* {
+    box-sizing: border-box;
+}
