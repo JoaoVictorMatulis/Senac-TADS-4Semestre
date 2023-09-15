@@ -22,7 +22,7 @@ public class ControleUsuario extends HttpServlet {
     
     protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        String flag, user, pass, mensagem;
+        String flag, user, pass, mensagem, arquivo;
         flag = request.getParameter("flag");
         if(flag.equals("login")){
             //aqui vem a parte de verificação de login
@@ -36,7 +36,16 @@ public class ControleUsuario extends HttpServlet {
                 RequestDispatcher disp = request.getRequestDispatcher("mensagens.jsp");
                 disp.forward(request, response);
             } else { //achou o usuario no BD
-                
+                String nome = usuario.getFuncionario().getNomeFun();
+                String cargo = usuario.getFuncionario().getCargoFun();
+                if(cargo.equalsIgnoreCase("gerente")){
+                    arquivo = "acesso_admin.jsp";
+                }else{
+                    arquivo = "acesso_outros.jsp";
+                }
+                request.setAttribute("nome", nome);
+                RequestDispatcher disp = request.getRequestDispatcher(arquivo);
+                disp.forward(request, response);
             }
         }else if(flag.equals("cadastroUsuario")){
             //aqui vem a parte de cadastro do usuario
