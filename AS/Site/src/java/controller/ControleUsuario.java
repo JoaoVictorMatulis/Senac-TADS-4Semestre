@@ -31,7 +31,7 @@ public class ControleUsuario extends HttpServlet {
             dao = new EmpresaDao();
             Usuario usuario = dao.validarLogin(user, pass);
             if(usuario == null){// não achou o usuario no BD
-                mensagem = "usuário e/ou senha inválidos";
+                mensagem = "Usuário e/ou senha inválidos";
                 request.setAttribute("mensagem", mensagem);
                 RequestDispatcher disp = request.getRequestDispatcher("mensagens.jsp");
                 disp.forward(request, response);
