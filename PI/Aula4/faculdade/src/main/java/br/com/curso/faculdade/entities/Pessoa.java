@@ -1,6 +1,6 @@
 package br.com.curso.faculdade.entities;
 
-import java.time.LocalDateTime;
+import java.util.Date;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -24,15 +24,15 @@ public class Pessoa {
     @Column (name = "Email")
     String email;
 
-    @Column (name = "CPF")
+    @Column (name = "cpf")
     String cpf;
 
-    LocalDateTime dataNascimento;
+    Date dataNascimento;
 
     public Pessoa() {
     }
 
-    public Pessoa(String nome, String email, String cpf, LocalDateTime dataNascimento) {
+    public Pessoa(String nome, String email, String cpf, Date dataNascimento) {
         this.nome = nome;
         this.email = email;
         this.cpf = cpf;
@@ -75,11 +75,11 @@ public class Pessoa {
         this.cpf = cpf;
     }
 
-    public LocalDateTime getDataNascimento() {
+    public Date getDataNascimento() {
         return dataNascimento;
     }
 
-    public void setDataNascimento(LocalDateTime dataNascimento) {
+    public void setDataNascimento(Date dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
 

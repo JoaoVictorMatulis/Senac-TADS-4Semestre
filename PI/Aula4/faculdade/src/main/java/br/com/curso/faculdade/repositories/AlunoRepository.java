@@ -1,5 +1,6 @@
 package br.com.curso.faculdade.repositories;
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -14,4 +15,8 @@ public interface AlunoRepository extends JpaRepository<Aluno, Integer>{
 
         @Query("SELECT alunos FROM Alunos alunos WHERE alunos.ativo=false ORDER BY alunos.nome")
         List<Aluno> listarTodosFechados();
+
+        Optional<Aluno> findByNome(String nome);
+
+        
 }

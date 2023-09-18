@@ -15,7 +15,8 @@ public class TesteConfiguracao {
     DBService dbService;
 
     private boolean instanciar() throws ParseException{
-        this.dbService.instanciarDB();
+        this.dbService.instanciarDBAluno();
+        this.dbService.instanciarDBPessoa();
         return true;
     }
 }
