@@ -1,0 +1,19 @@
+npm i --global npx
+
+npx create-react-app ./
+
+npm start
+
+Uma nova página do react é feita em um arquivo JavaScript dentro de uma função que retorna essa
+página
+
+npm i react-router-dom sass
+
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+
+<BrowserRouter>
+	<Routes>
+		<Route path='/' element={<App />}/>
+		<Route path='/contato'/ element={Contato />}/>
+
+import {Link} from 'react-router-dom'
