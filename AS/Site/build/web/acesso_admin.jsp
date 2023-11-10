@@ -26,11 +26,11 @@
             <div class="menu">
                 <button class="botao">Funcionários</button>
                 <div class="submenu">
-                    <a href="Funcionarios/cadfun.html" target="centro">Cadastro</a>
-                    <a href="Funcionarios/confun.html" target="centro">Consulta</a>
-                    <a href="Funcionarios/altfun.html" target="centro">Alteração</a>
-                    <a href="Funcionarios/excfun.html" target="centro">Exclusão</a>
-                    <a href="Funcionarios/lisfun.html" target="centro">Listagem</a>
+                    <a href="ControleDepartamento?flag=buscar_departamentos" target="centro">Cadastro</a>
+                    <a href="Funcionario/confun.html" target="centro">Consulta</a>
+                    <a href="Funcionario/altfun.html" target="centro">Alteração</a>
+                    <a href="Funcionario/excfun.html" target="centro">Exclusão</a>
+                    <a href="Funcionario/lisfun.html" target="centro">Listagem</a>
                 </div>
             </div>
             <div class="menu">

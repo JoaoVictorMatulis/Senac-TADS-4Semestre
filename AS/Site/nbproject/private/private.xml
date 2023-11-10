@@ -5,12 +5,13 @@
         <group>
             <file>file:/C:/Users/joao.vmatulis/Desktop/AS/Site/src/java/controller/ControleDepartamento.java</file>
             <file>file:/C:/Users/joao.vmatulis/Desktop/AS/Site/src/java/model/EmpresaDao.java</file>
-            <file>file:/C:/Users/joao.vmatulis/Desktop/AS/Site/web/acesso_admin.jsp</file>
-            <file>file:/C:/Users/joao.vmatulis/Desktop/AS/Site/web/acesso_outros.jsp</file>
-            <file>file:/C:/Users/joao.vmatulis/Desktop/AS/Site/web/mensagens.jsp</file>
+            <file>file:/C:/Users/joao.vmatulis/Desktop/AS/Site/web/Departamentos/condep.html</file>
+            <file>file:/C:/Users/joao.vmatulis/Desktop/AS/Site/web/Departamentos/excdep.html</file>
+            <file>file:/C:/Users/joao.vmatulis/Desktop/AS/Site/web/Departamentos/altdep.html</file>
+            <file>file:/C:/Users/joao.vmatulis/Desktop/AS/Site/web/Departamentos/alterar_dep.jsp</file>
             <file>file:/C:/Users/joao.vmatulis/Desktop/AS/Site/src/java/controller/ControleUsuario.java</file>
             <file>file:/C:/Users/joao.vmatulis/Desktop/AS/Site/src/java/model/Departamento.java</file>
-            <file>file:/C:/Users/joao.vmatulis/Desktop/AS/Site/web/Departamentos/caddep.html</file>
+            <file>file:/C:/Users/joao.vmatulis/Desktop/AS/Site/src/java/model/Funcionario.java</file>
         </group>
     </open-files>
 </project-private>

@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
-        <title>TODO supply a title</title>
+        <title>Exclusão de departamento</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+        <h1>Excluir Departamento</h1>
+        <form method="get" action="../ControleDepartamento">
+            <input type="hidden" name="flag" value="exc">
+            <label for="id">Id:*</label>
+            <input id="id" type="text" name="id" size="10" maxlength="10" required>
+            <input type="submit" value="Excluir">
+        </form>
     </body>
 </html>

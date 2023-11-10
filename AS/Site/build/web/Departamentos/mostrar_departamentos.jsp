@@ -16,6 +16,8 @@
                 <th>Sigla</th>
                 <th>Nome</th>
                 <th>Telefone</th>
+                <th>Alterar</th>
+                <th>Exclusão</th>
             </tr>
         <%
             for(Departamento dep: departamentos){
@@ -24,6 +26,8 @@
                 <td><%= dep.getIdDep()%> </td>
                 <td><%= dep.getNomeDep()%> </td>
                 <td><%= dep.getTelefoneDep()%> </td>
+                <td><a href="ControleDepartamento?flag=buscar_alt_dep&id=<%= dep.getIdDep()%>">Alterar</a></td>
+                <td><a href="ControleDepartamento?flag=exc&id=<%= dep.getIdDep()%>">Excluir</a></td>
             </tr>
         <%
             }
